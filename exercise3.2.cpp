@@ -45,6 +45,8 @@ int main()
     } else {
         fprintf(stdout, "It is a tie!\n");
     }
+    
+    fprintf(stdout, "17-1401-023-3 Kenta Kawaguchi.\n" );
 
     return 0;
 }
