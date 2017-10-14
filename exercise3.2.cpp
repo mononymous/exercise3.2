@@ -8,7 +8,7 @@ int main()
     float fa1, fb1, fa2, fb2, fa3, fb3;
 
     nfactor=10;
-    srand((unsigned) time(NULL));    /* seeds of randam number */
+    srand((unsigned) time(NULL));    /* seeds of random number */
     ix = rand()%nfactor;         /* random number between 0 and 9. */
     
     fprintf(stdout, "The selected number is %d ;.\n", ix);
