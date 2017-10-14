@@ -19,8 +19,6 @@ int main()
     fprintf(stdout, "Player two, imput a number between 0 and 9.\n");
     fscanf(stdin, "%f", &fb1);
     
-    fprintf(stdout, "The selected number is %f and %f ;.\n", fa1, fb1);
-    
 //  Calculating diffences
     fa2 = ix - fa1;
     fb2 = ix - fb1;
